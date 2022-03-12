@@ -16,11 +16,12 @@
 .home-main-section .lady-image {
   background-image: url(images/landing-page-girl.png);
   flex-grow: 1;
-  max-height: 70vh;
+  max-height: 80vh;
   min-width: 30vw;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom left;
+  margin-bottom: 0;
 }
 
 .home-main-section .call-to-action {
@@ -29,6 +30,21 @@
   align-items: flex-start;
   margin: 1rem;
   align-self: center;
+}
+
+/* Home page circles */
+
+/* Home page circle 1 */
+
+.home-page-circle-1 {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background-color: rgba(188, 58, 127, 0.1);
+  bottom: 5vw;
+  left: 5vw;
+  z-index: -1;
 }
 
 @media (max-width: 900px) {
