@@ -38,13 +38,45 @@
 
 .home-page-circle-1 {
   position: absolute;
-  width: 25vw;
-  height: 25vw;
+  width: 20vw;
+  height: 20vw;
   border-radius: 50%;
   background-color: rgba(188, 58, 127, 0.1);
-  bottom: 5vw;
+  bottom: 2vw;
   left: 5vw;
   z-index: -1;
+}
+
+.home-page-circle-2 {
+  position: absolute;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  background-color: rgba(23, 98, 167, 0.1);
+  top: 10vw;
+  left: 35vw;
+  z-index: -1;
+}
+
+.home-page-circle-3 {
+  position: absolute;
+  width: 35vw;
+  height: 35vw;
+
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.home-page-circle-3::before {
+  content: "";
+  transform: translate(40%, 30%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgba(23, 98, 167, 0.1);
 }
 
 @media (max-width: 900px) {

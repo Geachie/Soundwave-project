@@ -67,18 +67,18 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 40px 0 40px;
+  padding: 20px 40px 0 40px;
 }
 
 .title {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 3em;
   margin-bottom: 1rem;
   margin-top: 0;
 }
 
 .subtitle {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.2em;
   margin-bottom: 2rem;
 }
