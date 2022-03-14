@@ -1,0 +1,16 @@
+.join-main-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.join-text {
+  font-style: 3.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.accent-text {
+  color: #bc3a80;
+}
